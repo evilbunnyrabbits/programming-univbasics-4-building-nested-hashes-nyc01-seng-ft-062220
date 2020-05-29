@@ -69,6 +69,35 @@ def monopoly_with_fourth_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   
-  
+  my_hash = {
+    :railroads => {}
+}
+
+my_hash[:railroads] = {
+    :pieces => 4,
+    :rent_in_dollars => {},
+    :names => {}
+}
+
+my_hash[:railroads][:rent_in_dollars] = {
+    :one_piece_owned => 25,
+    :two_pieces_owned => 50,
+    :three_pieces_owned => 100,
+    :four_pieces_owned => 200
+}
+
+my_hash[:railroads][:names] = {
+    :reading_railroad => {},
+    :pennsylvania_railroad => {},
+    :b_and_o_railroad => {},
+    :shortline_railroad => {}
+}
+
+my_hash[:railroads][:names][:reading_railroad] = {:mortgage_value => 100}
+my_hash[:railroads][:names][:pennsylvania_railroad] = {:mortgage_value => 200}
+my_hash[:railroads][:names][:b_and_o_railroad] = {:mortgage_value => 400}
+my_hash[:railroads][:names][:shortline_railroad] = {:mortgage_value => 800}
+
+puts(my_hash)
 
 end
