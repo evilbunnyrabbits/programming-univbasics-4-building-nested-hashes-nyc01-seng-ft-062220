@@ -4,7 +4,6 @@ def base_hash
   my_hash = {
     :railroads = {}
   }
-  
   my_hash
 
 end
