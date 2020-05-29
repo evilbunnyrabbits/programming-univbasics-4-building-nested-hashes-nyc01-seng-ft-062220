@@ -98,6 +98,6 @@ my_hash[:railroads][:names][:pennsylvania_railroad] = {:mortgage_value => 200}
 my_hash[:railroads][:names][:b_and_o_railroad] = {:mortgage_value => 400}
 my_hash[:railroads][:names][:shortline_railroad] = {:mortgage_value => 800}
 
-puts(my_hash)
+my_hash
 
 end
